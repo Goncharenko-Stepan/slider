@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.frame {
+  width: 500px;
+  height: 500px;
+  /* border: 3px solid red; */
+  position: relative;
+}
+.cards {
+  display: grid;
+  /* border: 3px solid green; */
+  grid-auto-flow: column;
+  position: absolute;
+  left: 0;
+}
+.card {
+  height: 500px;
+  width: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
